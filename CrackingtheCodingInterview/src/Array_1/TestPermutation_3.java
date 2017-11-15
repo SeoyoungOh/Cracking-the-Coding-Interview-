@@ -45,16 +45,15 @@ public class TestPermutation_3 {
 		// TODO Auto-generated method stub
 		String testLetter1;
 		String testLetter2;
-		Scanner scan1 = new Scanner(System.in);
-		Scanner scan2 = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Please write the test letter 1 : ");
 		
-		testLetter1 = scan1.nextLine();
+		testLetter1 = scan.nextLine();
 		
         System.out.println("Please write the test letter 2 : ");
 		
-		testLetter2 = scan2.nextLine();
+		testLetter2 = scan.nextLine();
 		
 		System.out.println("1. Letter1 : " + testLetter1);
 		System.out.println("2. Letter2 : " + testLetter2);
