@@ -738,3 +738,69 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2017-11-15 20:03:48.735
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-11-15 21:03:30.706
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-11-15 21:03:30.706
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE Software being installed: Connect Hippie Completion 2.7.3.v20170927-1459-b1163 (com.codetrails.connect.hippie.rcp.feature.feature.group 2.7.3.v20170927-1459-b1163)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE Software currently installed: Code Recommenders for Java Developers 2.4.0.v20160607-1609 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.0.v20160607-1609)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.706
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE Code Recommenders Overrides‐Completion UI 2.4.0.v20160607-1609 (org.eclipse.recommenders.overrides.rcp 2.4.0.v20160607-1609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE Code Recommenders Overrides‐Completion UI 2.4.10.v20170911-1410 (org.eclipse.recommenders.overrides.rcp 2.4.10.v20170911-1410)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.706
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE From: Connect Hippie Completion 2.7.3.v20170927-1459-b1163 (com.codetrails.connect.hippie.rcp.feature.feature.group 2.7.3.v20170927-1459-b1163)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE To: org.eclipse.recommenders.rcp.feature.feature.group [2.4.9,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.706
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE From: Code Recommenders for Java Developers 2.4.0.v20160607-1609 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.0.v20160607-1609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE To: org.eclipse.recommenders.overrides.rcp [2.4.0.v20160607-1609]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.706
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE From: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.706
+!MESSAGE To: org.eclipse.recommenders.overrides.rcp [2.4.10.v20170911-1410]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-11-15 21:03:30.813
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-11-15 21:03:30.813
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE Software being installed: Connect Hippie Completion 2.7.3.v20170927-1459-b1163 (com.codetrails.connect.hippie.rcp.feature.feature.group 2.7.3.v20170927-1459-b1163)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE Software currently installed: Code Recommenders for Java Developers 2.4.0.v20160607-1609 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.0.v20160607-1609)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.814
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE Code Recommenders Overrides‐Completion UI 2.4.0.v20160607-1609 (org.eclipse.recommenders.overrides.rcp 2.4.0.v20160607-1609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE Code Recommenders Overrides‐Completion UI 2.4.10.v20170911-1410 (org.eclipse.recommenders.overrides.rcp 2.4.10.v20170911-1410)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.814
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE From: Connect Hippie Completion 2.7.3.v20170927-1459-b1163 (com.codetrails.connect.hippie.rcp.feature.feature.group 2.7.3.v20170927-1459-b1163)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE To: org.eclipse.recommenders.rcp.feature.feature.group [2.4.9,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.814
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE From: Code Recommenders for Java Developers 2.4.0.v20160607-1609 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.0.v20160607-1609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE To: org.eclipse.recommenders.overrides.rcp [2.4.0.v20160607-1609]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-11-15 21:03:30.814
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE From: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-11-15 21:03:30.814
+!MESSAGE To: org.eclipse.recommenders.overrides.rcp [2.4.10.v20170911-1410]
