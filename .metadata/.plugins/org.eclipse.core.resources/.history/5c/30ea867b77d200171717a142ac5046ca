@@ -1,0 +1,10 @@
+package _2_LinkedList;
+
+public class _7_IsPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
