@@ -6,34 +6,15 @@ import java.util.Scanner;
 public class _7_IsPalindrome {
 	public static boolean isPalindrome (LinkedList<String> n){
 		LinkedList<String> reverse = reverseList(n);
-		
 		return n.equals(reverse);
 	}
 	public static LinkedList<String> reverseList (LinkedList<String> n){
 		LinkedList<String> reverseList = new LinkedList();
 		for(int i=n.size()-1; i>-1; i--){
 			String tmp = n.get(i);
-			tmp = bracketTest(tmp);
 			reverseList.add(tmp);
 		}
 		return reverseList;
-	}
-	public static String bracketTest(String s){
-		switch(s) {
-		case ")" :
-			s = "(";
-			break;
-		case "(" :
-			s = ")";
-			break;
-		case "[" :
-			s = "]";
-			break;
-		case "]" :
-			s = "[";
-			break;
-		}
-		return s;
 	}
 
 	public static void main(String[] args) {
@@ -48,7 +29,7 @@ public class _7_IsPalindrome {
 		for(int i = 0; i<test.length(); i++){
 			char tmpChar = test.charAt(i);
 			String tmp = Character.toString(tmpChar);
-			
+			// 괄호 잇는 경우 변환 과정에서 처리해주면 될 듯
 			testList.add(tmp);
 		}
 		
@@ -56,8 +37,6 @@ public class _7_IsPalindrome {
 		for(int i =0; i<testList.size(); i++)
 			System.out.print(testList.get(i));
 		System.out.println("");
-		
-		
 		
 		boolean result = isPalindrome(testList);
 		System.out.println("Result : " + result);
