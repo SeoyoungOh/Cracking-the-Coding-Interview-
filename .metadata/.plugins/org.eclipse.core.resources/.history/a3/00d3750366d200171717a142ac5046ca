@@ -46,14 +46,13 @@ public class _1_Deduplicate {
 		LinkedList<String> result = new LinkedList();
 		runner = n;
 		for(int i=0; i<n.size(); i++) {
-			String s = n.get(i);
 			for(int j=0; j<runner.size(); j++){
-				String ss = runner.get(j);
-				if(ss == s){
+				if(runner.get(j) == n.get(i)){
 					n.remove(i);
 					i--;
 				}
 			}
+			String s = n.get(i);
 			result.add(s);
 		}
 		
