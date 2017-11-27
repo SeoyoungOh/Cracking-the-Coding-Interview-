@@ -15,7 +15,7 @@ public class _4_Partition {
 				big.add(j);
 		}
 		n.clear();
-		small.sort(null); // 추가로 정렬도 해둠
+		small.sort(null);
 		big.sort(null);
 		n = small;
 		n.addAll(big);

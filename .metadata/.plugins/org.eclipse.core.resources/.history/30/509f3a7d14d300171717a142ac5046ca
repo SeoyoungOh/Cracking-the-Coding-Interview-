@@ -77,7 +77,7 @@ public class _1_Deduplicate {
 		
 		for(String s : test){
 			testList.add(s);
-			System.out.println(s);
+			System.out.println(s+" ");
 		}
 		System.out.println("");
 		
