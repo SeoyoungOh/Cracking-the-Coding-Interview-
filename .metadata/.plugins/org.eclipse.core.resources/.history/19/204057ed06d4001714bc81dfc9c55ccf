@@ -21,14 +21,10 @@ public class FlattenList {
 	    LinkedList<Object> stack = new LinkedList<>(list);
 	    while (!stack.isEmpty()) {
 	        Object e = stack.pop();
-	        if (e instanceof List<?>){
-	        	System.out.println("instanceof : "+ e);
+	        if (e instanceof List<?>)
 	            stack.addAll(0, (List<?>)e);
-	        }
-	        else{
-	        	System.out.println("add : " + e);
+	        else
 	            result.add(e);
-	        }
 	    }
 	    return result;
 	}
